@@ -3,8 +3,9 @@ import time
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD)
+GPIO.setup(7,GPIO.OUT)
 
-state = true
+state = True
 
 # endless loop, on/off for 1 second
 while True:
